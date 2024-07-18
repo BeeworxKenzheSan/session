@@ -8,6 +8,8 @@ const CIRCLE_VARIANTS = {
   warning: "orange",
 };
 
+// #7d7d7d
+
 const getCicleBackground = (props) => {
   const styles = CIRCLE_VARIANTS[props.variant];
   if (!styles) {
