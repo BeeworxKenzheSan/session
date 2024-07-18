@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "./components/UI/Button";
 
 function App() {
   return <StyledDiv></StyledDiv>;
@@ -6,6 +7,4 @@ function App() {
 
 export default App;
 
-const StyledDiv = styled.div`
-  background-color: #676f76;
-`;
+const StyledDiv = styled.div``;
